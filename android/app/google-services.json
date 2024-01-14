@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "562237159971",
+    "project_id": "random-animal-parts-site",
+    "storage_bucket": "random-animal-parts-site.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562237159971:android:d562945a21bb1b34304f96",
+        "android_client_info": {
+          "package_name": "com.random_animal_parts.random_animal_parts_site"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv_TH_JbSdRda9YrHMY50G6Uko8yxu4t0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
