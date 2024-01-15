@@ -1,20 +1,24 @@
 import 'package:flutter/material.dart';
 
-class BW_Button extends StatelessWidget {
-  const BW_Button({
+class BWButton extends StatelessWidget {
+  const BWButton({
     super.key,
     required this.text,
+    required this.width,
+    required this.height,
     required this.loadPage,
   });
 
   final String text;
   final Widget loadPage;
+  final double width;
+  final double height;
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 100,
-      height: 35,
+      width: width,
+      height: height,
       child: OutlinedButton(
         onPressed: (){
           Navigator.push(
